@@ -8,7 +8,7 @@ import java.util.*;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "http://localhost:3000")  // Allow requests from your frontend's origin
+@CrossOrigin(origins = "https://lexus-frontend.onrender.com/login/admin")  // Allow requests from your frontend's origin
 public class DescriptionController {
 
     private static final String OPENAI_API_KEY = System.getenv("OPENAI_API_KEY");  // Replace with your actual API key
